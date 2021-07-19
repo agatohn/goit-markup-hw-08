@@ -1,0 +1,42 @@
+.client {
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__logo-block {
+    display: flex;
+    fill: #afb1b8;
+  }
+
+  &__logo {
+    width: 106px;
+    height: 60px;
+  }
+
+  &__logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    margin-right: 30px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__logo-item:last-child {
+    margin-right: 0px;
+  }
+
+  &__logo-item:hover,
+  &__logo-item:focus {
+    border-color: #2196f3;
+  }
+
+  &__logo-item:hover,
+  &__logo-item:focus {
+    fill: #2196f3;
+  }
+}

@@ -1,0 +1,17 @@
+.close-btn {
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  right: 8px;
+  top: 8px;
+
+  &:hover,
+  &:focus {
+    fill: $accentColor;
+  }
+
+  &__icon {
+    width: 11px;
+    height: 11px;
+  }
+}

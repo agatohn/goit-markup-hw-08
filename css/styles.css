@@ -1,0 +1,455 @@
+/* цвет заголовков и ссылок #212121 */
+
+/* цвет активных ссылок и кнопки #2196F3 */
+
+/* цвет текстовых блоков, должности и номера телефона в хедере #757575 */
+
+/* фон #E5E5E5 */
+
+/* вторичный фон #2F303A*/
+
+/* фон хедера и цвет текста активных кнопок  #FFFFFF*/
+
+/* третий цвет фона и цвет неактивных кнопок портфолио #F5F4FA */
+
+/* :root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --tertiary-background-color: #f5f4fa;
+} */
+
+/* header styles */
+
+/* Hat or Hero styles */
+
+/* .hero {
+  color: #ffffff;
+  
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  max-width: 696px;
+  margin: 0 auto 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-btn {
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* features */
+
+/* .features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+} */
+
+/* .features-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.features-item {
+  flex-basis: calc(100% / 4) -30px;
+  margin-left: 30px;
+}
+
+.features-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.features-logo-block {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.features-item-title {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features-text {
+  color: $secondaryTextColor;
+} */
+
+/* what we do section */
+
+/* .working {
+  padding-bottom: 94px;
+}
+
+.working__title {
+  margin-bottom: 50px;
+}
+
+.working__list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.working__item {
+  flex-basis: calc(100% / 3) -30px;
+  margin-left: 30px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.working__overtext {
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 27px 0px;
+  background: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+} */
+
+/* our team */
+
+/* .team {
+ 
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient( $tertiaryBackgroundColor, $tertiaryBackgroundColor);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team-title {
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  margin-left: -30px;
+}
+
+.team-item {
+  flex-basis: calc(100% / 4) - 30px;
+  margin-left: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-text-item {
+  margin-top: 30px;
+  
+}
+
+.team-logo-block {
+  display: flex;
+  fill: #afb1b8;
+}
+
+.team-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-logo-item:first-child {
+  margin-left: 32px;
+}
+
+.team-logo-item:last-child {
+  margin-right: 0px;
+}
+
+.team-logo-item:hover, .team-logo-item:focus {
+  background-color: #2196f3;
+}
+
+.team-logo-item:hover, .team-logo-item:focus {
+  fill: #ffffff;
+}
+
+.team-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.team-item-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-item-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: $secondaryTextColor;
+} */
+
+/* clients */
+
+/* .client-title {
+  margin-bottom: 50px;
+}
+
+.client-logo-block {
+  display: flex;
+  fill: #afb1b8;
+}
+
+.client-logo {
+  width: 106px;
+  height: 60px;
+}
+
+.client-logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-logo-item:last-child {
+  margin-right: 0px;
+}
+
+.client-logo-item:hover, .client-logo-item:focus {
+  border-color: #2196f3;
+}
+
+.client-logo-item:hover, .client-logo-item:focus {
+  fill: #2196f3;
+} */
+
+/* footer */
+
+/* portfolio section */
+
+/* portfolio works */
+
+/* modal window */
+
+/* .backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: none;
+} */
+
+/* .modal {
+  width: 528px;
+  height: 581px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.close-btn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  right: 8px;
+  top: 8px;
+}
+
+.close-btn:hover, .close-btn:focus {
+  fill: $accentColor;
+}
+
+.close-icon {
+  width: 11px;
+  height: 11px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: $primaryTextColor;
+  margin-bottom: 12px;
+}
+
+.form-input-text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 40px;
+  outline: none;
+}
+
+.form-input:focus {
+  border-color: $accentColor;
+}
+
+.form-input:focus+.input-icon {
+  fill: $accentColor;
+}
+
+.form-input-text {
+  font-size: 12px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.form-field {
+  margin-bottom: 10px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-text {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  padding: 12px 16px;
+  resize: none;
+  outline: none;
+}
+
+.form-text:focus {
+  border-color: $accentColor;
+}
+
+.form-text::placeholder {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.input-check-text {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $secondaryTextColor;
+  margin-bottom: 30px;
+}
+
+.input-check-text span {
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-check {
+  margin-right: 7px;
+}
+
+.form-rights {
+  display: inline-block;
+  margin-left: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: $accentColor;
+}
+
+.check-icon {
+  fill: #ffffff;
+}
+
+.input-check:checked+.input-check-text span {
+  background-color: $accentColor;
+  border: none;
+}
+
+.form-send-btn {
+  margin-left: 124px;
+} */

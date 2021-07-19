@@ -1,0 +1,75 @@
+.footer {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: linear-gradient($secondaryBackgroundColor, $secondaryBackgroundColor);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__contact {
+    display: flex;
+  }
+
+  &__logo {
+    margin-bottom: 20px;
+  }
+
+  &__address {
+    font-style: normal;
+  }
+
+  &__physical-address {
+    display: block;
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+
+  &__links .link {
+    display: block;
+    color: $secondaryTextColor;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__links &__contact-link:first-child {
+    margin-bottom: 9px;
+  }
+
+  &__links .link:hover,
+  &__links .link:focus {
+    color: $accentColor;
+  }
+
+  &__join {
+    font-weight: bold;
+    line-height: 1.21;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-left: 70px;
+  }
+
+  &__join-link-block {
+    margin-top: 20px;
+  }
+
+  &__join-link-item {
+    background: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+  }
+
+  &__mailing {
+    margin-top: 12px;
+    margin-left: 93px;
+  }
+}

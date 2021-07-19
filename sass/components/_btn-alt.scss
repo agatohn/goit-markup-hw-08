@@ -1,0 +1,21 @@
+.btn-alt {
+  padding: 6px 22px;
+  display: block;
+  color: $primaryTextColor;
+  background-color: $tertiaryBackgroundColor;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $accentColor;
+  }
+}

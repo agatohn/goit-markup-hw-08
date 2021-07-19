@@ -1,5 +1,10 @@
 .working {
-  padding-bottom: 94px;
+  display: none;
+  
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+    display: block;
+  }
 
   &__title {
     margin-bottom: 50px;

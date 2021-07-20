@@ -160,6 +160,10 @@ body {
   margin-bottom: 20px;
 }
 
+.mailing__form {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 1200px) {
   .mailing__form {
     display: flex;
@@ -167,7 +171,7 @@ body {
 }
 
 .mailing__input {
-  width: 358px;
+  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -175,12 +179,26 @@ body {
   background: none;
   padding-left: 16px;
   outline: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .mailing__input {
+    width: 358px;
+    margin-bottom: unset;
+  }
 }
 
 .mailing__btn {
   display: flex;
   padding-left: 29px;
-  margin-left: 12px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .mailing__btn {
+    margin-left: 12px;
+  }
 }
 
 .mailing__logo {
@@ -299,8 +317,8 @@ body {
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -313,6 +331,13 @@ body {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
+
 .modal__close-btn {
   position: absolute;
   width: 30px;
@@ -322,10 +347,16 @@ body {
 .modal__title {
   font-weight: bold;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   color: #212121;
   margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__title {
+    line-height: 1.15;
+  }
 }
 
 .modal__form-input-text {
@@ -400,10 +431,17 @@ body {
   display: flex;
   align-items: center;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   color: #757575;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__input-check-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__input-check-text span {
@@ -426,11 +464,18 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__form-rights {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__check-icon {
@@ -443,7 +488,13 @@ body {
 }
 
 .modal__form-send-btn {
-  margin-left: 124px;
+  margin-left: 85px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__form-send-btn {
+    margin-left: 124px;
+  }
 }
 
 .close-btn {
@@ -775,6 +826,7 @@ body {
 }
 
 .footer {
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
@@ -786,9 +838,19 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    text-align: unset;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .footer__contact {
     display: flex;
   }
+}
+
+.footer__address-block {
+  margin-bottom: 60px;
 }
 
 .footer__logo {
@@ -834,11 +896,27 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 12px;
-  margin-left: 70px;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__join {
+    margin-left: 70px;
+    margin-bottom: unset;
+  }
 }
 
 .footer__join-link-block {
   margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__join-link-block {
+    justify-content: unset;
+    align-items: unset;
+  }
 }
 
 .footer__join-link-item {
@@ -848,7 +926,12 @@ body {
 
 .footer__mailing {
   margin-top: 12px;
-  margin-left: 93px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__mailing {
+    margin-left: 93px;
+  }
 }
 
 .portfolio__filters-list {

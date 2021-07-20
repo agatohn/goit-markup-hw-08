@@ -1,5 +1,5 @@
 .footer {
-  // max-width: 1600px;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
@@ -9,10 +9,18 @@
   background-position: center;
   background-size: cover;
 
+  @media screen and (min-width: 1200px) {
+    text-align: unset;
+  }
+
   &__contact {
     @media screen and (min-width: 1200px) {
       display: flex;
     }
+  }
+
+  &__address-block {
+    margin-bottom: 60px;
   }
 
   &__logo {
@@ -52,17 +60,33 @@
     color: $accentColor;
   }
 
+  // &__link {
+  //   display: block;
+  // }
+
   &__join {
     font-weight: bold;
     line-height: 1.21;
     text-transform: uppercase;
     color: #ffffff;
     margin-top: 12px;
-    margin-left: 70px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 70px;
+      margin-bottom: unset;
+    }
   }
 
   &__join-link-block {
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 1200px) {
+      justify-content: unset;
+      align-items: unset;
+    }
   }
 
   &__join-link-item {
@@ -72,6 +96,9 @@
 
   &__mailing {
     margin-top: 12px;
-    margin-left: 93px;
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 93px;
+    }
   }
 }

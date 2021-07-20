@@ -1,6 +1,6 @@
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -14,6 +14,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
+
   &__close-btn {
     position: absolute;
     width: 30px;
@@ -23,12 +28,15 @@
   &__title {
     font-weight: bold;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     color: $primaryTextColor;
     margin-bottom: 12px;
-  }
 
+    @media screen and (min-width: 1200px) {
+      line-height: 1.15;
+    }
+  }
   &__form-input-text {
     font-weight: normal;
     font-size: 12px;
@@ -101,10 +109,14 @@
     display: flex;
     align-items: center;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
     color: $secondaryTextColor;
     margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
   }
 
   &__input-check-text span {
@@ -127,11 +139,17 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
+
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: $accentColor;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
   }
 
   &__check-icon {
@@ -144,6 +162,9 @@
   }
 
   &__form-send-btn {
-    margin-left: 124px;
+    margin-left: 85px;
+    @media screen and (min-width: 1200px) {
+      margin-left: 124px;
+    }
   }
 }

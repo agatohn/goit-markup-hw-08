@@ -139,7 +139,13 @@
       <h2 class="team__title section-title">Наша команда</h2>
       <ul class="team__list">
         <li class="team__item team-card">
-          <img src="./images/teamcard1.jpg" alt="Фото Игоря" width="270">
+          <picture>
+            <source srcset="./images/dp/team1.jpg 1x, ./images/dp/team1x2.jpg 2x" media="(min-width:1200px)">
+            <source srcset="./images/tab/team1.jpg 1x, ./images/tab/team1x2.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/mob/team1.jpg 1x, ./images/mob/team1x2.jpg 2x" media="(min-width:480px)">
+            <img src="./images/teamcard1.jpg" alt="Фото Игоря">
+          </picture>
+
           <div class="team-card__text-item">
             <h3 class="team-card__item-title">Игорь Демьяненко</h3>
             <p class="team-card__item-text">Product Designer</p>
@@ -168,7 +174,15 @@
           </div>
         </li>
         <li class="team__item team-card">
-          <img src="./images/teamcard2.jpg" alt="Фото Ольги" width="270">
+
+          <picture>
+            <source srcset="./images/dp/team2.jpg 1x, ./images/dp/team2x2.jpg 2x" media="(min-width:1200px)">
+            <source srcset="./images/tab/team2.jpg 1x, ./images/tab/team2x2.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/mob/team2.jpg 1x, ./images/mob/team2x2.jpg 2x" media="(min-width:480px)">
+            <img src="./images/teamcard2.jpg" alt="Фото Ольги">
+
+          </picture>
+
           <div class="team-card__text-item">
             <h3 class="team-card__item-title">Ольга Репина</h3>
             <p class="team-card__item-text">Frontend Developer</p>
@@ -197,7 +211,15 @@
           </div>
         </li>
         <li class="team__item team-card">
-          <img src="./images/teamcard3.jpg" alt="Фото Николая" width="270">
+          <picture>
+            <source srcset="./images/dp/team3.jpg 1x, ./images/dp/team3x2.jpg 2x" media="(min-width:1200px)">
+            <source srcset="./images/tab/team3.jpg 1x, ./images/tab/team3x2.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/mob/team3.jpg 1x, ./images/mob/team3x2.jpg 2x" media="(min-width:480px)">
+            <img src="./images/teamcard3.jpg" alt="Фото Николая">
+
+          </picture>
+
+
           <div class="team-card__text-item">
             <h3 class="team-card__item-title">Николай Тарасов</h3>
             <p class="team-card__item-text">Marketing</p>
@@ -226,7 +248,15 @@
           </div>
         </li>
         <li class="team__item team-card">
-          <img src="./images/teamcard4.jpg" alt="Фото Михаила" width="270">
+
+          <picture>
+            <source srcset="./images/dp/team4.jpg 1x, ./images/dp/team4x2.jpg 2x" media="(min-width:1200px)">
+            <source srcset="./images/tab/team4.jpg 1x, ./images/tab/team4x2.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/mob/team4.jpg 1x, ./images/mob/team4x2.jpg 2x" media="(min-width:480px)">
+            <img src="./images/teamcard4.jpg" alt="Фото Михаила">
+
+          </picture>
+
           <div class="team-card__text-item">
             <h3 class="team-card__item-title">Михаил Ермаков</h3>
             <p class="team-card__item-text">UI Designer</p>
@@ -309,7 +339,7 @@
 
   <!-- Footer -->
 
-  <!-- <footer class="footer">
+  <footer class="footer">
     <div class="container">
       <div class="footer__contact">
         <div class="footer__address-block">
@@ -373,7 +403,7 @@
         </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
   <!-- modal -->
   <!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal">

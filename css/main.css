@@ -160,8 +160,10 @@ body {
   margin-bottom: 20px;
 }
 
-.mailing__form {
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .mailing__form {
+    display: flex;
+  }
 }
 
 .mailing__input {
@@ -639,15 +641,27 @@ body {
   margin-left: auto;
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mob/hero_img-min.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mob/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mob/herox2.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tab/hero_img-min.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tab/hero.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tab/herox2.jpg);
   }
 }
 
@@ -655,6 +669,15 @@ body {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/dp/hero.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/dp/herox2.jpg);
   }
 }
 
@@ -762,8 +785,10 @@ body {
   background-size: cover;
 }
 
-.footer__contact {
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .footer__contact {
+    display: flex;
+  }
 }
 
 .footer__logo {
@@ -1002,10 +1027,25 @@ body {
   flex-basis: calc((100% - 60px) / 2);
 }
 
+.client__logo-item:nth-last-child(-n + 2) {
+  margin-bottom: unset;
+}
+
 @media screen and (min-width: 768px) {
   .client__logo-item {
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
+  }
+  .client__logo-item:nth-last-child(-n + 3) {
+    margin-bottom: unset;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client__logo-item {
+    flex-basis: unset;
+    margin-left: 30px;
+    margin-bottom: unset;
   }
 }
 

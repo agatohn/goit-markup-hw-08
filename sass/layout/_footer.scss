@@ -9,10 +9,18 @@
   background-position: center;
   background-size: cover;
 
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
   @media screen and (min-width: 1200px) {
     text-align: unset;
   }
-
+  &__firstline {
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
+  }
   &__contact {
     @media screen and (min-width: 1200px) {
       display: flex;
@@ -21,6 +29,15 @@
 
   &__address-block {
     margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 76px;
+      margin-right: 165px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-left: unset;
+      margin-right: unset;
+    }
   }
 
   &__logo {

@@ -1,6 +1,7 @@
 .working {
   display: none;
-  
+  padding-top: unset;
+
   @media screen and (min-width: 1200px) {
     padding-bottom: 94px;
     display: block;

@@ -22,13 +22,14 @@
   <header class="header">
     <div class="container">
       <div class="header__nav">
+        <a href="./index.html" class="header__logo logo link">Web<span class="logo--black">Studio</span></a>
         <nav class="header__navigation">
-          <a href="./index.html" class="header__logo logo link">Web<span class="logo--black">Studio</span></a>
+
           <ul class="header__list">
             <li class="header__list-item">
               <a href="./index.html" class="link header__link">Студия</a>
             </li>
-            <li class="header__list-item"> <a href="./portfolio.html" class="link current header__link">Портфолио</a>
+            <li class="header__list-item"> <a href="./portfolio.html" class="link  current header__link">Портфолио</a>
             </li>
             <li class="header__list-item"> <a href="" class="link header__link">Контакты</a> </li>
           </ul>
@@ -47,6 +48,56 @@
                 +38 096 111 11 11</a> </li>
           </ul>
         </div>
+        <button type="button" class="menu-open">
+          <svg class="menu__icon">
+            <use href="./images/sprite.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="menu is-hidden">
+      <div class="container">
+        <button class="close-btn btn-close">
+          <svg class="close-btn__icon">
+            <use href="./images/sprite.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <ul class="menu__list list">
+          <li class="menu__list-item">
+            <a href="./index.html" class="menu__list-link link">Студия</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="./portfolio.html" class="menu__list-link link">Портфолио</a>
+          </li>
+          <li class="menu__list-item">
+            <a href="" class="menu__list-link link">Контакты</a>
+          </li>
+        </ul>
+        <div class="menu__bottom">
+          <ul class="menu__contacts list">
+            <li class="menu__contacts-item">
+              <a href="" class="menu__contacts-link menu__contacts-link_size_big link">+38 096 111 11 11</a>
+            </li>
+            <li class="menu__contacts-item">
+              <a href="" class="menu__contacts-link menu__contacts-link_size_small link">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="menu__social list">
+            <li class="menu__social-item">
+              <a href="" class="menu__social-link">Instagram</a>
+            </li>
+            <li class="menu__social-item">
+              <a href="" class="menu__social-link">Twitter</a>
+            </li>
+            <li class="menu__social-item">
+              <a href="" class="menu__social-link">Facebook</a>
+            </li>
+            <li class="menu__social-item">
+              <a href="" class="menu__social-link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </header>
@@ -343,6 +394,7 @@
       </div>
     </div>
   </footer>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>
